@@ -51,7 +51,7 @@ cacheSolve <- function(x, ...) {
         m <- x$getCache()
         if(!is.null(m)) {
 
-                message("getting cached inverted matrix!")
+        ##      message("getting cached inverted matrix!")
                 return(m)
         }
         ## we do not have inverted matrix in the "cache", so we
