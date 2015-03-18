@@ -13,10 +13,10 @@
 ## 
 ## Example of usage:
 ## 
-## m1 <- makeCacheMatrix(matrix(rnorm(1000000), nrow = 1000, ncol = 1000, 
+## m <- makeCacheMatrix(matrix(rnorm(1000000), nrow = 1000, ncol = 1000, 
 ##                                                       byrow = TRUE))
-## m2 <- cacheSolve(m)
-## m2 <- cacheSolve(m)
+## m1 <- cacheSolve(m)
+## m1 <- cacheSolve(m)
 ##---------------------------------------------------------------------------
 
 
